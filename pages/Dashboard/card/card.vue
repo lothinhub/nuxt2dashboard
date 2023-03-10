@@ -1,13 +1,12 @@
 <template>
   <div>
-    <h1>About</h1>
+      <h1>Dashboard</h1>
   </div>
 </template>
 
 <script>
 export default {
- layouts: 'app',
-
+  layouts:'app'
 }
 </script>
 

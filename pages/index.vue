@@ -1,20 +1,14 @@
 <template>
   <div >
-      <TopSideBar/>
-      <AsideBarVue/>
-      <main>
-          <Nuxt/>
-      </main>
+      <app/>
   </div>
 </template>
 
 <script>
-import TopSideBar from '~/components/TopSideBar.vue';
-import AsideBarVue from '~/components/AsideBar.vue';
+import app from '~/layouts/app.vue';
 export default {
   components: {
-    TopSideBar,
-    AsideBarVue
+    app
   }
 }
 </script>

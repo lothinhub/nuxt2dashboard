@@ -5,7 +5,7 @@
       <div class="px-3 py-2">
         <nav class="mb-3">
           <b-nav vertical>
-            <b-nav-item><NuxtLink to="dashbaord">Dashboard</NuxtLink></b-nav-item>
+            <b-nav-item><NuxtLink to="">Dashboard</NuxtLink></b-nav-item>
             <b-nav-item><NuxtLink to="/people">People</NuxtLink></b-nav-item>
             <b-nav-item><NuxtLink to="/service">Service</NuxtLink></b-nav-item>
             <b-nav-item><NuxtLink to="/management">Management</NuxtLink></b-nav-item>
@@ -19,7 +19,7 @@
             <b-nav-item><NuxtLink to="/team">Team</NuxtLink></b-nav-item>
             <b-nav-item><NuxtLink to="/importexport">Import & Export</NuxtLink></b-nav-item>
             <b-nav-item><NuxtLink to="/setting">Setting</NuxtLink></b-nav-item>
-            <b-nav-item><NuxtLink to="/about">About us</NuxtLink></b-nav-item>
+            <b-nav-item><NuxtLink to="/About">About us</NuxtLink></b-nav-item>
           </b-nav>
         </nav>
       </div>
