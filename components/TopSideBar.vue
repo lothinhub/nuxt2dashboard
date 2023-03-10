@@ -2,9 +2,13 @@
   <div>
   <b-navbar toggleable="lg" type="dark" variant="info">
     <b-button v-b-toggle.sidebar-1>
-      <b-icon icon="three-dots" animation="cylon" font-scale="4"></b-icon>
+      <b-icon icon="battery-full" style="color: #7952b3;"></b-icon>
     </b-button>
-
+  <template>
+    <div class="h2 mb-0">
+      <b-icon icon="battery-full" style="color: #7952b3;"></b-icon>
+    </div>
+  </template>
     <b-navbar-brand href="#">NavBar</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
