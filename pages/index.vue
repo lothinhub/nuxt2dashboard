@@ -3,7 +3,7 @@
       <TopSideBar/>
       <AsideBarVue/>
       <main>
-        <Nuxt/>
+          <Nuxt/>
       </main>
   </div>
 </template>
@@ -12,7 +12,6 @@
 import TopSideBar from '~/components/TopSideBar.vue';
 import AsideBarVue from '~/components/AsideBar.vue';
 export default {
-  layout:'app',
   components: {
     TopSideBar,
     AsideBarVue
