@@ -1,7 +1,6 @@
 <template>
   <div>
-    <H1>This is layout</H1>
-    <Nuxt />
+    <nuxt />
   </div>
 </template>
 
@@ -11,4 +10,6 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+
+</style>
