@@ -1,11 +1,10 @@
-<template>
+v<template>
   <div id='app-container' :class='getMenuType'>
-    <TopSideBar />
-    <AsideBar />
+    <TopSideBar/>
+    <AsideBar/>
     <main>
       <div class='container-fluid'>
         <Nuxt />
-        
       </div>
     </main>
     <b-overlay :show='inProgress' rounded='sm' variant='dark' z-index='50000' opacity='0.2' no-wrap>
