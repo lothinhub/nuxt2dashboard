@@ -1,5 +1,5 @@
-v<template>
-  <div id='app-container' :class='getMenuType'>
+<template>
+ <div id='app-container' :class='getMenuType'>
     <TopSideBar/>
     <AsideBar/>
      <main>
