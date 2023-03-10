@@ -1,16 +1,19 @@
 <template>
   <div>
-    <NavBar />
+    Rental
+    <rental/>
   </div>
 </template>
 
 <script>
-import NavBar from '~/components/NavBar.vue'
+import rental from './components/rental.vue'
 export default {
   components: {
-    NavBar
+    rental
   }
 }
 </script>
 
-<style></style>
+<style>
+
+</style>

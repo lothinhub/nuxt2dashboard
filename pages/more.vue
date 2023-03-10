@@ -1,15 +1,14 @@
 <template>
   <div>
-    <NavBar />
+    <b-container fluid class="variant-primary">
+      <h1>More</h1>
+    </b-container>
   </div>
 </template>
 
 <script>
-import NavBar from '~/components/NavBar.vue'
 export default {
-  components: {
-    NavBar
-  }
+
 }
 </script>
 
