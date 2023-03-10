@@ -5,7 +5,7 @@
       <div class="px-3 py-2">
         <nav class="mb-3">
           <b-nav vertical>
-            <b-nav-item><NuxtLink to="">Dashboard</NuxtLink></b-nav-item>
+            <b-nav-item><NuxtLink to="/dashboard/card">Dashboard</NuxtLink></b-nav-item>
             <b-nav-item><NuxtLink to="/people">People</NuxtLink></b-nav-item>
             <b-nav-item><NuxtLink to="/service">Service</NuxtLink></b-nav-item>
             <b-nav-item><NuxtLink to="/management">Management</NuxtLink></b-nav-item>
