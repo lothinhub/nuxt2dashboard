@@ -1,3 +1,7 @@
 {
-    "nuxt.isNuxtApp": true
+    "nuxt.isNuxtApp": true,
+    "cSpell.words": [
+        "dashbaord",
+        "Nuxt"
+    ]
 }
