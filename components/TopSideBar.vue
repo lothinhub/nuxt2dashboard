@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="md" type="dark" variant="light" class="shadow">
+    <b-navbar toggleable="md" type="dark" variant="light" class="shadow rounded">
       <b-icon v-b-toggle.sidebar-1 class="h2" icon="text-center" style="color: #7952b3;"></b-icon>
       <b-navbar-brand class="ml-4 h2 text-primary">Nuxt LaRa People</b-navbar-brand>
 
@@ -13,10 +13,12 @@
             <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
             <b-button size="sm" class="my-2 my-sm-0 text-" type="submit">Search</b-button>
           </b-nav-form>
-          <b-nav-item-dropdown right>
+          <b-nav-item-dropdown right class="pt-3">
             <!-- Using 'button-content' slot -->
             <template #button-content>
-              <h6 class="text-primary mt-3">User</h6>
+              <h6 class="text-primary mt-3">
+                 <b-avatar variant="info" src="https://placekitten.com/300/300"></b-avatar>
+              </h6>
             </template>
             <b-dropdown-item href="#">Profile</b-dropdown-item>
             <b-dropdown-item href="#">Sign Out</b-dropdown-item>

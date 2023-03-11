@@ -1,30 +1,20 @@
 <template>
   <div>
-    <b-table responsive :items="items"></b-table>
+    <b-table striped hover :items="items"></b-table>
   </div>
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        items: [
-          {
-            heading1: 'table cell',
-            heading2: 'table cell',
-            heading3: 'table cell',
-            heading4: 'table cell',
-            heading5: 'table cell',
-            heading6: 'table cell',
-            heading7: 'table cell',
-            heading8: 'table cell',
-            heading9: 'table cell',
-            heading10: 'table cell',
-            heading11: 'table cell',
-            heading12: 'table cell'
-          }
-        ]
-      }
+export default {
+  data() {
+    return {
+      items: [
+        { age: 40, first_name: 'Dickerson', last_name: 'Macdonald' },
+        { age: 21, first_name: 'Larsen', last_name: 'Shaw' },
+        { age: 89, first_name: 'Geneva', last_name: 'Wilson' },
+        { age: 38, first_name: 'Jami', last_name: 'Carney' }
+      ]
     }
   }
+}
 </script>

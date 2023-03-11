@@ -1,6 +1,5 @@
 <template>
   <div>
-    Modal
     <modal/>
     <tables/>
   </div>

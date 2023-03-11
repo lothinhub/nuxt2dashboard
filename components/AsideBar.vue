@@ -3,9 +3,9 @@
     <b-sidebar id="sidebar-1" title="People" bg-variant="light" shadow>
       <hr class="bg-primary">
       <div class="px-3 py-2">
-        <nav class="mb-3">
-          <b-nav vertical>
-            <b-nav-item NuxtLink to="/dashboard"><b-icon icon="house-fill" variant="warning"></b-icon>&nbsp; Dashboard</b-nav-item>
+        <nav class="mb-3" v-b-hover="handleHover">
+          <b-nav vertical >
+            <b-nav-item :class="isHovered ? 'text-danger' : ''" NuxtLink to="/dashboard"><b-icon icon="house-fill" variant="warning"></b-icon>&nbsp; Dashboard</b-nav-item>
             <b-nav-item NuxtLink to="/people"><b-icon icon="people-fill" variant="warning"></b-icon>&nbsp; People</b-nav-item>
             <b-nav-item NuxtLink to="/service"><b-icon icon="arrow-repeat" variant="warning"></b-icon>&nbsp; Service</b-nav-item>
             <b-nav-item NuxtLink to="/management"><b-icon icon="arrows-move" variant="warning"></b-icon>&nbsp; Management</b-nav-item>
@@ -26,3 +26,17 @@
     </b-sidebar>
   </div>
 </template>
+<script>
+  export default {
+    data() {
+      return {
+        isHovered: false
+      }
+    },
+    methods: {
+      handleHover(hovered) {
+        this.isHovered = hovered
+      }
+    }
+  }
+</script>
